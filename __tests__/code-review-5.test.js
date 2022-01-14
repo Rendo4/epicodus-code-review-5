@@ -1,4 +1,4 @@
-import { Planet, currentAge } from "./../src/calculator.js";
+import { Planet, currentAge, expectancy, Life, planets } from "./../src/calculator.js";
 
 describe('Planet', () => {
   let array1 = [];
@@ -34,25 +34,25 @@ describe('expentancy', () => {
     currentAge(age, array1, Planet);
     expectancy(Life, array1);
     expect(planets[0]).toEqual(199.09090909090907);
-  })
+  });
   test('should generate how long you have left to live on Venus by minusing expectancy from current age', () => {
     currentAge(age, array1, Planet);
     expectancy(Life, array1);
     expect(planets[1]).toEqual(77.86666666666667);
-  })
+  });
   test('should generate how long you have left to live on Earth by minusing expectancy from current age', () => {
     currentAge(age, array1, Planet);
     expectancy(Life, array1);
     expect(planets[2]).toEqual(48);
-  })
+  });
   test('should generate how long you have left to liv on Mars by minusing expectancy from current age', () => {
     currentAge(age, array1, Planet);
     expectancy(Life, array1);
     expect(planets[3]).toEqual(25.502183406113534);
-  })
+  });
   test('should generate how long you have left to live on Jupiter by minusing expectancy from current age', () => {
     currentAge(age, array1, Planet);
     expectancy(Life, array1);
     expect(planets[4]).toEqual(4.0433879529194545);
-  })
+  });
 })
