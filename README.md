@@ -34,6 +34,7 @@ _Hello and thank you for viewing 'Galactic Calculator' application! . In this pr
 * _It should now be on your desktop_
 * _run the command "npm install"_
 * _run the command "npm run build"_
+* _(optional) run the command "npm run test"_
 * _run the command "npm run start"_
 
 ## Known Bugs
